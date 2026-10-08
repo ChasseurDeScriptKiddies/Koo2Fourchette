@@ -1,0 +1,39 @@
+/*
+=====================================================
+                    Navbar
+=====================================================
+*/
+
+.searchlogo {
+        width: 300px;
+        justify-content: flex;
+            .searchbar{
+                .search{
+                    color: black;
+                    border-radius: 0px;
+                    margin: auto 50%;
+                    gap: 0px;
+                    display: block;
+                    width: 244px;
+                    height: 45px;
+                    margin-right: -4px;
+                    border: 1px solid black;
+                    outline: none;
+                }
+                .confirmsearch{
+                    padding: 14.5px;
+                    margin: auto 131.5%;
+                    justify-content: flex;
+                    height: 50%;
+                    width: 56px;
+                    border: 0px solid;
+                    background-color: rgb(197, 15, 197);
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+    .confirmsearch:hover {
+        background-color:rgb(255, 0, 255);
+    }    
+}
